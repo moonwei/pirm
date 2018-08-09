@@ -1,0 +1,92 @@
+/*非常重要的样式让背景图片100%适应整个屏幕*/
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.bg {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(http://www.xiandanke.cn/Image/intro-bg.jpg) no-repeat bottom center;
+    background-color: #000;
+    background-size: cover;
+}
+
+.navbar {
+    padding: 20px 0;
+    color: #e8eaf6;
+    background-color: #3f51b5;
+    transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
+}
+
+.navbar a {
+    background: transparent !important;
+    color: #fff !important
+}
+
+.navbar a:hover {
+    color: #45bcf9 !important;
+    background: transparent;
+    outline: 0
+}
+
+.navbar a {
+    transition: color 0.5s ease-in-out;
+}
+
+
+
+
+/*-webkit-transition ;-moz-transition*/
+
+.top-nav {
+    padding: 0;
+    background: #000;
+}
+
+button.navbar-toggle {
+    background-color: #fbfbfb;
+}
+
+
+
+
+/*整个背景都是transparent透明的，会看不到，所以再次覆盖一下*/
+
+button.navbar-toggle>span.icon-bar {
+    background-color: #dedede
+}

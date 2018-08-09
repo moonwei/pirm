@@ -1,0 +1,9 @@
+{
+    "config": {},
+    "repositories": {
+        "packageist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+"cpuname":"Intel(R) Core(TM) i5-6500 CPU @ 3.20GHz",
+"cpu_id":"BFEBFBFF000506E3",
+"memsize":16384,
+"boardname":"HP",
+"osCaption":"Microsoft Windows 10 专业版",
+"osArchitecture":"64 位",
+"nets":[
+{"Caption":"[00000002] Broadcom NetXtreme Gigabit Ethernet",
+"IPAddress":"133.165.24.196",
+"IPSubnet":"255.255.255.0",
+"MAC":"00:10:18:1A:6C:E0"},
+{"Caption":"[00000013] Hyper-V Virtual Ethernet Adapter",
+"IPAddress":"172.18.7.145",
+"IPSubnet":"255.255.255.240",
+"MAC":"02:15:BF:99:14:39"},
+{"Caption":"[00000015] Hyper-V Virtual Ethernet Adapter",
+"IPAddress":"10.57.39.7",
+"IPSubnet":"255.255.255.224",
+"DefaultIPGateway":"10.57.39.1",
+"MAC":"3C:52:82:52:91:BD"}
+],
+"disks":[
+{"Interface":"IDE",
+"Model":"TOSHIBA DT01ACA100",
+"Name":"\\\\.\\PHYSICALDRIVE0",
+"Size":"931.51"}
+],
+"sy_name":"空闲",
+"sy_phone":"15637560000",
+"sy_bm":"D4",
+"zc_bh":"000000"
+}
